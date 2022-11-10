@@ -21,7 +21,3 @@
    2. 静态代码块。
 4. final类不能继承，但是可以实例化对象；
 5. 如果类不是final类，但是还有final方法，则该方法虽然不能重写，但是可以被继承。
-6. 一般来说，如果一个类已经是final类了，就没有必要再将方法修饰成final方法。
-7. final不能修饰构造方法（即构造器）。
-8. final和static往往搭配使用，效率更高。
-9. 包装类(Integer, Double, Float, String)都是final类。
